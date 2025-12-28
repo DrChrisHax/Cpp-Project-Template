@@ -2,11 +2,12 @@
 TARGET := app
 TEST_TARGET := test_runner
 CXX := g++
-WARN := -Wall -Wextra -Werror
+#CXX := clang++
+WARN := -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion #-Werror
 STD := -std=c++23
 OPT := -O2
 DEP := -MMD -MP
-INCLUDES := -Icore -Icore/os/$(PLATFORM) -Iapp -Itests
+INCLUDES := -Iapp -Itests -Icore -Icore/os/$(PLATFORM) -Icore/templates
 
 # ----- File Extensions -----
 CXX_EXT := cpp
