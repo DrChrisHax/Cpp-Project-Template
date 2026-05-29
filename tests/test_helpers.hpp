@@ -1,5 +1,5 @@
-#ifndef CPP_TEMPLATE_TESTS_HPP_
-#define CPP_TEMPLATE_TESTS_HPP_
+#ifndef TESTS_TEST_HELPERS_HPP_
+#define TESTS_TEST_HELPERS_HPP_
 
 #include <string_view>
 #include <iostream>
@@ -39,4 +39,4 @@ private:
     std::string result_;
 };
 
-#endif  // CPP_TEMPLATE_TESTS_HPP_
+#endif  // TESTS_TEST_HELPERS_HPP_

@@ -1,5 +1,5 @@
-#ifndef CPP_TEMPLATE_SAMPLE_TESTS_HPP_
-#define CPP_TEMPLATE_SAMPLE_TESTS_HPP_
+#ifndef TESTS_SAMPLE_TESTS_HPP_
+#define TESTS_SAMPLE_TESTS_HPP_
 
 #include "test_helpers.hpp"
 
@@ -21,4 +21,4 @@ test_result SampleTest2() {
     return test_result(std::move(expected), std::move(result)); // This test will fail
 }
 
-#endif // CPP_TEMPLATE_SAMPLE_TESTS_HPP_
+#endif // TESTS_SAMPLE_TESTS_HPP_
